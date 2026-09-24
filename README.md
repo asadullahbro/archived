@@ -1,4 +1,4 @@
-# archive
+# repo
 
 Abandoned or finished experiments, kept for reference.
 

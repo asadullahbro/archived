@@ -1,0 +1,7 @@
+server/asterisk/pjsip.conf
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk

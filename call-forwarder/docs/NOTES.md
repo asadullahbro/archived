@@ -70,10 +70,6 @@ Asterisk purged from the VPS, `/etc/asterisk` and its systemd drop-in removed, T
 `sip.asdl.website` deleted, nginx vhost removed, ufw rules for 8000/tcp and 10000-10020/udp removed,
 experimental app uninstalled from the phone.
 
-Left for the owner to tidy (not automatable from here): the Cloudflare DNS record `sip.asdl.website`,
-and the Oracle security-list ingress rules for UDP 5060 (two), UDP 10000-10020 and TCP 8000
-(plus TCP 5060 if it was added).
-
 ## How to resume
 
 Start from the real-call test with a spare phone calling the Android. If the microphone is silent
